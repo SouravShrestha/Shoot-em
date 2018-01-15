@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Score : MonoBehaviour {
 
-	public static int s;
+	public static int s=0;
     public Text tscore;
     public Camera cam;
     public Color[] colors;
@@ -13,7 +13,7 @@ public class Score : MonoBehaviour {
 
     private void Start()
     {
-        s = Level.point[0];
+        s = 5;
     }
 
     private void Update()
